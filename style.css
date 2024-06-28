@@ -55,6 +55,34 @@ section {
     max-width: 1200px;
 }
 
+/* Scroll to Top Button */
+.scroll-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: none;
+    width: 60px;
+    height: 60px;
+    background-color: #24a0f3;
+    color: white;
+    border: none;
+    border-radius: 30%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    z-index: 1000; /* Ensures the button is above other elements */
+}
+
+.scroll-to-top:hover {
+    background-color: #6ff0d4;
+    color: black;
+}
+
+.scroll-to-top i {
+    font-size: 2.0em;
+}
+
+
 .about-container {
     display: flex;
     flex-wrap: wrap;
@@ -72,6 +100,8 @@ section {
     height: auto;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    pointer-events: none; /* Prevent drag and drop */
+    user-select: none; /* Disable text selection */
 }
 
 .about-text {
