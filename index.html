@@ -32,7 +32,7 @@
         <div class="container hero-content">
             <div class="hero-badge mono">Embedded Systems Engineer</div>
             <h1>Ashfaq Mahmud</h1>
-            <p class="hero-subtitle">Specializing in C/C++ development, embedded systems, and low-level programming for innovative hardware solutions</p>
+            <p class="hero-subtitle">Specializing in C/C++ development, embedded systems, and low-level programming for innovative hardware solutions. Also enthusiast about mobile app develoment for fun.</p>
             <div class="hero-cta">
                 <a href="#projects" class="btn btn-primary">View My Work</a>
                 <a href="#contact" class="btn btn-secondary">Get In Touch</a>
@@ -64,7 +64,7 @@
                     </p>
                     <div class="hero-cta">
                         <a href="#contact" class="btn btn-primary">Hire Me</a>
-                        <a href="#" class="btn btn-secondary">Download Resume</a>
+                        <a href="resume.pdf" class="btn btn-secondary" download="Ashfaq_Mahmud_Resume.pdf" aria-label="Download resume (PDF)">Download Resume</a>
                     </div>
                 </div>
             </div>
@@ -82,11 +82,14 @@
                 <div class="skill-category">
                     <h3><i class="fas fa-microchip"></i> Embedded Technologies</h3>
                     <div class="skills-list">
-                        <span class="skill-tag">ARM Cortex-M</span>
+                        <!-- <span class="skill-tag">ARM Cortex-M</span>
                         <span class="skill-tag">RTOS</span>
                         <span class="skill-tag">Device Drivers</span>
                         <span class="skill-tag">Firmware Development</span>
-                        <span class="skill-tag">Bootloader</span>
+                        <span class="skill-tag">Bootloader</span> -->
+                        <span class="skill-tag">Arduino and sensors</span>
+                        <span class="skill-tag">ESP32 boards</span>
+                        <span class="skill-tag">AVR coding</span>
                         <span class="skill-tag">Embedded Linux</span>
                     </div>
                 </div>
@@ -95,7 +98,7 @@
                     <div class="skills-list">
                         <span class="skill-tag">C</span>
                         <span class="skill-tag">C++</span>
-                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
                         <span class="skill-tag">Assembly</span>
                         <span class="skill-tag">Bash Scripting</span>
                     </div>
@@ -103,23 +106,35 @@
                 <div class="skill-category">
                     <h3><i class="fas fa-network-wired"></i> Protocols & Networking</h3>
                     <div class="skills-list">
-                        <span class="skill-tag">UART/I2C/SPI</span>
+                        
                         <span class="skill-tag">TCP/IP</span>
                         <span class="skill-tag">MQTT</span>
-                        <span class="skill-tag">CAN Bus</span>
-                        <span class="skill-tag">Modbus</span>
+                        <span class="skill-tag">UART/I2C/SPI</span>
+                        <!-- <span class="skill-tag">CAN Bus</span>
+                        <span class="skill-tag">Modbus</span> -->
                         <span class="skill-tag">Network Management</span>
+                        <span class="skill-tag">API design</span>
                     </div>
                 </div>
                 <div class="skill-category">
                     <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
                     <div class="skills-list">
                         <span class="skill-tag">Git</span>
-                        <span class="skill-tag">GCC Toolchain</span>
-                        <span class="skill-tag">GDB Debugger</span>
+                        <!-- <span class="skill-tag">GCC Toolchain</span>
+                        <span class="skill-tag">GDB Debugger</span> -->
                         <span class="skill-tag">Make/CMake</span>
                         <span class="skill-tag">Oscilloscope</span>
-                        <span class="skill-tag">Logic Analyzer</span>
+                        <span class="skill-tag">Logisim</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Framework/SDK</h3>
+                    <div class="skills-list">
+                        
+                        <span class="skill-tag">Android (Java)</span>
+                        <span class="skill-tag">Flutter</span>
+                        <span class="skill-tag">.NET</span>
+                        
                     </div>
                 </div>
             </div>
@@ -145,7 +160,7 @@
                         <ul>
                             <li>Developed and optimized embedded software using C programming language</li>
                             <li>Gained hands-on experience with network devices and protocol stack implementation</li>
-                            <li>Designed and implemented communication protocols for embedded systems</li>
+                            <!-- <li>Designed and implemented communication protocols for embedded systems</li> -->
                             <li>Performed network management and device configuration tasks</li>
                         </ul>
                     </div>
@@ -164,49 +179,49 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-header">
-                        <h3>Custom RTOS Implementation</h3>
+                        <h3>Software Switch - A layer 2 framework</h3>
                         <div class="project-tech">
                             <span class="tech-tag">C</span>
-                            <span class="tech-tag">ARM Cortex-M</span>
-                            <span class="tech-tag">RTOS</span>
+                            <span class="tech-tag">LibPcap</span>
+                            <span class="tech-tag">Linux</span>
                         </div>
                     </div>
                     <div class="project-body">
-                        <p>A lightweight real-time operating system implementation for ARM Cortex-M microcontrollers featuring task scheduling, IPC, and memory management.</p>
+                        <p>A lightweight, educational Layer 2 Ethernet switch built from scratch in C using libpcap. It captures raw Ethernet frames, learns MAC addresses dynamically, and forwards frames between interfaces — all in user space. Think of it as your own programmable switch, running entirely in software.</p>
                         <div class="project-links">
-                            <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                            <a href="https://github.com/AshfaqMahmud/sswitch" class="project-link"><i class="fab fa-github"></i> Source Code</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="project-card">
                     <div class="project-header">
-                        <h3>Network Protocol Stack</h3>
+                        <h3>Webserver on a ESP8266 board</h3>
                         <div class="project-tech">
-                            <span class="tech-tag">C</span>
+                            <span class="tech-tag">C++</span>
                             <span class="tech-tag">Embedded</span>
                             <span class="tech-tag">Networking</span>
                         </div>
                     </div>
                     <div class="project-body">
-                        <p>Custom TCP/IP stack implementation for resource-constrained embedded devices with minimal memory footprint and optimized performance.</p>
+                        <p>A lightweight HTTP web server implementation for the ESP8266 microcontroller that serves custom HTML, CSS, and JavaScript files from the device's file system (LittleFS). Control GPIO pins and manage your IoT devices through an interactive web interface.</p>
                         <div class="project-links">
-                            <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                            <a href="https://github.com/AshfaqMahmud/webserver" class="project-link"><i class="fab fa-github"></i> Source Code</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="project-card">
                     <div class="project-header">
-                        <h3>Device Driver Development</h3>
+                        <h3>Custom TCP/IP Communication using ESP866</h3>
                         <div class="project-tech">
                             <span class="tech-tag">C</span>
-                            <span class="tech-tag">Linux Kernel</span>
-                            <span class="tech-tag">Drivers</span>
+                            <span class="tech-tag">AVR programming</span>
+                            <span class="tech-tag">Protocol Designing</span>
                         </div>
                     </div>
                     <div class="project-body">
-                        <p>Developed character device drivers and kernel modules for custom hardware peripherals in Embedded Linux environment.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         <div class="project-links">
                             <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
                         </div>
